@@ -1,17 +1,35 @@
 body {
-    font-size: 19px;
+    font-size: 16px;
+    background-color: #0e3148;
 }
 
 main {
     margin-top: 90px;
+    
 }
 
 section {
     margin-bottom: 50px;
 }
 
-h1, h2, h3, h4 {
-    color: #df691a;
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+h4{
+    padding-left: 3px;
+}
+
+h1, h2, h3{
+    color: #CB4F3E;
 }
 h3 {
     font-size: 23px;
@@ -26,17 +44,19 @@ img {
 }
 
 header.navbar {
+    background-color: #2882BE;
     opacity: 0.9;
+    
 }
 .navbar .navbar-brand {
     font-size: 28px;
     height: auto;
     line-height: 50px;
     margin-left: 20px;
-    color: #df691a;
+    color: #CB4F3E;
 }
 .navbar a.navbar-brand:hover {
-    color: #df691a;
+    
 }
 .navbar .navbar-brand small {
     font-size: 18px;
@@ -78,6 +98,7 @@ pre {
     background-color: #1D2B3A;
     border-radius: 4px;
     margin: 15px;
+    margin-left:0 !important;
 }
 pre code {
     border: none;
